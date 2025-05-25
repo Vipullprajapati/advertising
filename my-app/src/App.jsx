@@ -43,10 +43,9 @@ function App() {
         </div>
       </nav>
 
+      {/* Home section */}
 
-     {/* Home section */}
-
-     <section class="home" id="home">
+      <section class="home" id="home">
         <div class="max-width">
           <div class="home-content">
             <div class="text-1">Hello, my name is</div>
@@ -58,7 +57,6 @@ function App() {
           </div>
         </div>
       </section>
-
 
       {/* About section */}
 
@@ -86,6 +84,47 @@ function App() {
         </div>
       </section>
 
+      {/* Services section */}
+
+      <div class="services" id="services">
+        <div class="max-width">
+          <h2 class="title">My services</h2>
+          <div class="serv-content">
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <div class="text">🔧 Custom Website Development</div>
+                <p>
+                  I build responsive, fast-loading, and SEO-friendly websites
+                  tailored to your brand and goals — whether it's a personal
+                  blog, company site, or full-scale web application.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-chart-line"></i>
+                <div class="text">🌐 Web App Development</div>
+                <p>
+                  I design and build dynamic web applications, SPAs, dashboards,
+                  and admin panels using modern JavaScript frameworks.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-code"></i>
+                <div class="text">⚙️ API Integration & Development</div>
+                <p>
+                  Custom API development and integration with third-party
+                  services (e.g., payment gateways, social logins, CRMs, or
+                  external data providers).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
