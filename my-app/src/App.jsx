@@ -306,7 +306,6 @@ function App() {
           <span class="far fa-copyright"></span> 2020 All rights reserved.
         </span>
       </footer>
-
     </>
   );
 }
