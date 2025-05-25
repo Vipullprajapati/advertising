@@ -230,6 +230,83 @@ function App() {
         </div>
       </section>
 
+      {/* Contact section */}
+
+      <section class="contact" id="contact">
+        <div class="max-width">
+          <h2 class="title">Contact me</h2>
+          <div class="contact-content">
+            <div class="column left">
+              <div class="text">Get in Touch</div>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos harum corporis fuga corrupti. Doloribus quis soluta
+                nesciunt veritatis vitae nobis?
+              </p>
+              <div class="icons">
+                <div class="row">
+                  <i class="fas fa-user"></i>
+                  <div class="info">
+                    <div class="head">Name</div>
+                    <div class="sub-title">Prakash Shahi</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="info">
+                    <div class="head">Address</div>
+                    <div class="sub-title">Surkhet, Nepal</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fas fa-envelope"></i>
+                  <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">abc@gmail.com</div>
+                  </div>
+                </div>
+                <div class="cloumn right">
+                  <div class="text">Call me</div>
+                  <div class="icons">
+                    <div class="row">
+                      <i class="fas fa-phone"></i>
+                      <div class="info">
+                        <div class="head">Phone</div>
+                        <div class="sub-title">+977 1234567890</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <i class="fas fa-phone"></i>
+                      <div class="info">
+                        <div class="head">Phone</div>
+                        <div class="sub-title">+977 1234567890</div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <i class="fas fa-phone"></i>
+                      <div class="info">
+                        <div class="head">Email</div>
+                        <div class="sub-title">abc@gmail.com</div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+
+
+      {/* Footer section */}
+
+      <footer>
+        <span>
+          Created By <a href="#">CodingVipul</a> |{" "}
+          <span class="far fa-copyright"></span> 2020 All rights reserved.
+        </span>
+      </footer>
+
     </>
   );
 }
