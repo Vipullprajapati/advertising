@@ -30,11 +30,6 @@ function App() {
               </a>
             </li>
             <li>
-              <a href="#skills" class="menu-btn">
-                Skills
-              </a>
-            </li>
-            <li>
               <a href="#teams" class="menu-btn">
                 Teams
               </a>
@@ -45,11 +40,25 @@ function App() {
               </a>
             </li>
           </ul>
-          <div class="menu-btn">
-            <i class="fas fa-bars"></i>
-          </div>
         </div>
       </nav>
+
+
+     {/* Home section */}
+     
+     <section class="home" id="home">
+        <div class="max-width">
+          <div class="home-content">
+            <div class="text-1">Hello, my name is</div>
+            <div class="text-2">vipul prajapati</div>
+            <div class="text-3">
+              And I'm a <span class="typing"></span>
+            </div>
+            <a href="#">Hire me</a>
+          </div>
+        </div>
+      </section>
+
     </>
   );
 }
