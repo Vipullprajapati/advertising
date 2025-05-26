@@ -185,7 +185,6 @@ function App() {
         </div>
       </section>
 
-
       {/* Teams section */}
 
       <section class="teams" id="teams">
@@ -200,28 +199,20 @@ function App() {
             </div>
             <div class="card">
               <div class="box">
-                <img src="https://avatars.githubusercontent.com/u/76686720?v=4" alt="" />
+                <img
+                  src="https://avatars.githubusercontent.com/u/76686720?v=4"
+                  alt=""
+                />
                 <div class="text">Someone name</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
             </div>
             <div class="card">
               <div class="box">
-                <img src="https://avatars.githubusercontent.com/u/76686720?v=4" alt="" />
-                <div class="text">Someone name</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="box">
-                <img src="https://avatars.githubusercontent.com/u/76686720?v=4" alt="" />
-                <div class="text">Someone name</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="box">
-                <img src="https://avatars.githubusercontent.com/u/76686720?v=4" alt="" />
+                <img
+                  src="https://avatars.githubusercontent.com/u/76686720?v=4"
+                  alt=""
+                />
                 <div class="text">Someone name</div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
               </div>
@@ -243,60 +234,10 @@ function App() {
                 Dignissimos harum corporis fuga corrupti. Doloribus quis soluta
                 nesciunt veritatis vitae nobis?
               </p>
-              <div class="icons">
-                <div class="row">
-                  <i class="fas fa-user"></i>
-                  <div class="info">
-                    <div class="head">Name</div>
-                    <div class="sub-title">Prakash Shahi</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <div class="info">
-                    <div class="head">Address</div>
-                    <div class="sub-title">Surkhet, Nepal</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <i class="fas fa-envelope"></i>
-                  <div class="info">
-                    <div class="head">Email</div>
-                    <div class="sub-title">abc@gmail.com</div>
-                  </div>
-                </div>
-                <div class="cloumn right">
-                  <div class="text">Call me</div>
-                  <div class="icons">
-                    <div class="row">
-                      <i class="fas fa-phone"></i>
-                      <div class="info">
-                        <div class="head">Phone</div>
-                        <div class="sub-title">+977 1234567890</div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <i class="fas fa-phone"></i>
-                      <div class="info">
-                        <div class="head">Phone</div>
-                        <div class="sub-title">+977 1234567890</div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <i class="fas fa-phone"></i>
-                      <div class="info">
-                        <div class="head">Email</div>
-                        <div class="sub-title">abc@gmail.com</div>
-                      </div>
-                    </div>
-                  </div>
-              </div>
             </div>
           </div>
         </div>
-        </div>
       </section>
-
 
       {/* Footer section */}
 
