@@ -49,10 +49,11 @@ function App() {
         <div class="max-width">
           <div class="home-content">
             <div class="text-1">Hello, my name is</div>
-            <div class="text-2">vipul prajapati</div>
+            <div class="text-2">VIPUL PRAJAPATI</div>
             <div class="text-3">
-              And I'm a <span class="typing"></span>
+              And I'm a <span class="typing">Web Developer</span>
             </div>
+
             <a href="#">Hire me</a>
           </div>
         </div>
@@ -65,8 +66,14 @@ function App() {
           <h2 class="title">About me</h2>
           <div class="about-content">
             <div class="column right">
+              <div class="column-left">
+                <img
+                  src="https://avatars.githubusercontent.com/u/76686720?v=4"
+                  alt=""
+                />
+              </div>
               <div class="text">
-                I'm Prakash and I'm a <span class="typing-2"></span>
+                I'm vipul and I'm a <span class="typing-2">web developer</span>
               </div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
