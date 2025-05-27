@@ -75,10 +75,7 @@ section .title::after {
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
 }
-.navbar.sticky {
-  padding: 15px 0;
-  background: crimson;
-}
+
 .navbar .max-width {
   display: flex;
   align-items: center;
@@ -93,9 +90,7 @@ section .title::after {
   color: crimson;
   transition: all 0.5s ease;
 }
-.navbar.sticky .logo a span {
-  color: #36e700;
-}
+
 .navbar .menu li {
   list-style: none;
   display: inline-block;
@@ -111,9 +106,7 @@ section .title::after {
 .navbar .menu li a:hover {
   color: crimson;
 }
-.navbar.sticky .menu li a:hover {
-  color: #00ffd0;
-}
+
 
 /* menu btn styling */
 .menu-btn {
