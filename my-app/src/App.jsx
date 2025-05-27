@@ -1,7 +1,5 @@
 import "./App.css";
 
-
-
 function App() {
   return (
     <>
@@ -12,7 +10,7 @@ function App() {
         <div class="max-width">
           <div class="logo">
             <a href="#">
-              Portfo<span>lio.</span>
+             VIP
             </a>
           </div>
           <ul class="menu">
@@ -97,39 +95,30 @@ function App() {
 
       <div class="services" id="services">
         <div class="max-width">
-          <h2 class="title">My services</h2>
+          <h2 class="title">MY SERVICES</h2>
           <div class="serv-content">
             <div class="card">
-              <div class="box">
-                <i class="fas fa-paint-brush"></i>
-                <div class="text">🔧 Custom Website Development</div>
-                <p>
-                  I build responsive, fast-loading, and SEO-friendly websites
-                  tailored to your brand and goals — whether it's a personal
-                  blog, company site, or full-scale web application.
-                </p>
-              </div>
+              <div class="text">🔧 Custom Website Development</div>
+              <p>
+                I build responsive, fast-loading, and SEO-friendly websites
+                tailored to your brand and goals — whether it's a personal blog,
+                company site, or full-scale web application.
+              </p>
             </div>
             <div class="card">
-              <div class="box">
-                <i class="fas fa-chart-line"></i>
-                <div class="text">🌐 Web App Development</div>
-                <p>
-                  I design and build dynamic web applications, SPAs, dashboards,
-                  and admin panels using modern JavaScript frameworks.
-                </p>
-              </div>
+              <div class="text">🌐 Web App Development</div>
+              <p>
+                I design and build dynamic web applications, SPAs, dashboards,
+                and admin panels using modern JavaScript frameworks.
+              </p>
             </div>
             <div class="card">
-              <div class="box">
-                <i class="fas fa-code"></i>
-                <div class="text">⚙️ API Integration & Development</div>
-                <p>
-                  Custom API development and integration with third-party
-                  services (e.g., payment gateways, social logins, CRMs, or
-                  external data providers).
-                </p>
-              </div>
+              <div class="text">⚙️ API Integration & Development</div>
+              <p>
+                Custom API development and integration with third-party services
+                (e.g., payment gateways, social logins, CRMs, or external data
+                providers).
+              </p>
             </div>
           </div>
         </div>
@@ -250,7 +239,13 @@ function App() {
                 <form>
                   <input type="text" placeholder="ENTER YOUR NAME" />
                   <input type="text" placeholder="ENTER YOUR EMAIL" />
-                  <textarea name="" id="" cols="30" rows="5" placeholder="DESCRIBE YOUR ISSUE"></textarea>
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="5"
+                    placeholder="DESCRIBE YOUR ISSUE"
+                  ></textarea>
                   <button className="opacity">SUBMIT</button>
                 </form>
                 <div className="register-forget opacity">

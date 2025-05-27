@@ -107,7 +107,6 @@ section .title::after {
   color: crimson;
 }
 
-
 /* menu btn styling */
 .menu-btn {
   color: #fff;
@@ -206,7 +205,16 @@ section .title::after {
 .services,
 .teams {
   color: #fff;
-  background: #111;
+  /* background: #111; */
+}
+.title {
+  color: #111;
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
 }
 .services .title::before,
 .teams .title::before {
@@ -215,7 +223,6 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: "what i provide";
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
