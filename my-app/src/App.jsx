@@ -1,5 +1,7 @@
 import "./App.css";
 
+
+
 function App() {
   return (
     <>
@@ -248,7 +250,7 @@ function App() {
                 <form>
                   <input type="text" placeholder="ENTER YOUR NAME" />
                   <input type="text" placeholder="ENTER YOUR EMAIL" />
-                  <textarea name="" id="" cols="30" rows="5"></textarea>
+                  <textarea name="" id="" cols="30" rows="5" placeholder="DESCRIBE YOUR ISSUE"></textarea>
                   <button className="opacity">SUBMIT</button>
                 </form>
                 <div className="register-forget opacity">
