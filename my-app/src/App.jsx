@@ -228,30 +228,47 @@ function App() {
         </div>
       </section>
 
-      {/* Contact section */}
+      {/* login section */}
 
       <section class="contact" id="contact">
         <div class="max-width">
           <h2 class="title">Contact me</h2>
-          <div class="contact-content">
-            <div class="column left">
-              <div class="text">Get in Touch</div>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos harum corporis fuga corrupti. Doloribus quis soluta
-                nesciunt veritatis vitae nobis?
-              </p>
+        </div>
+        <div className="main-container">
+          <section className="container">
+            <div className="login-container">
+              <div className="circle circle-one"></div>
+              <div className="form-container">
+                <img
+                  src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png"
+                  alt="illustration"
+                  className="illustration"
+                />
+                <h1 className="opacity">Contact Us</h1>
+                <form>
+                  <input type="text" placeholder="ENTER YOUR NAME" />
+                  <input type="text" placeholder="ENTER YOUR EMAIL" />
+                  <textarea name="" id="" cols="30" rows="5"></textarea>
+                  <button className="opacity">SUBMIT</button>
+                </form>
+                <div className="register-forget opacity">
+                  <a href="">REGISTER</a>
+                  <a href="">FORGOT PASSWORD</a>
+                </div>
+              </div>
+              <div className="circle circle-two"></div>
             </div>
-          </div>
+            <div className="theme-btn-container"></div>
+          </section>
         </div>
       </section>
 
       {/* Footer section */}
 
-      <footer>
+      <footer class="footer">
         <span>
           Created By <a href="#">CodingVipul</a> |{" "}
-          <span class="far fa-copyright"></span> 2020 All rights reserved.
+          <span class="far fa-copyright"></span> 2025 All rights reserved.
         </span>
       </footer>
     </>

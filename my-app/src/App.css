@@ -116,7 +116,7 @@ section .title::after {
 }
 
 /* menu btn styling */
- .menu-btn {
+.menu-btn {
   color: #fff;
   font-size: 23px;
   cursor: pointer;
@@ -200,7 +200,7 @@ section .title::after {
   color: crimson;
   background: none;
 }
-.column-left{
+.column-left {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,7 +208,6 @@ section .title::after {
   width: 100%;
   height: 100%;
 }
-
 
 /* services section styling */
 .services,
@@ -357,6 +356,7 @@ section .title::after {
 .teams .carousel .card:hover .box {
   transform: scale(1.05);
 }
+
 .teams .carousel .card .text {
   font-size: 25px;
   font-weight: 500;
@@ -402,5 +402,113 @@ section .title::after {
 .contact .contact-content .text {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* login section styling */
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.login-container .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: -1;
+}
+
+.login-container .form-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  text-align: center;
+  z-index: 1;
+}
+
+.login-container .form-container .illustration {
+  width: 270px;
+  margin: 0 auto 30px;
+}
+
+.login-container .form-container h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-container .form-container form {
+  position: relative;
+}
+
+.login-container .form-container input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  background: transparent;
+}
+
+.login-container .form-container button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid #333;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-container .form-container button:hover {
+  color: white;
+  background: #333;
+}
+
+.login-container .form-container .register-forget {
+  position: relative;
+  margin-top: 15px;
+}
+
+.login-container .form-container .register-forget a {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  color: #999;
+  text-decoration: none;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
 }
