@@ -36,6 +36,13 @@ footer {
   justify-content: space-between;
 }
 
+.profileimg {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 section .title {
   position: relative;
   text-align: center;

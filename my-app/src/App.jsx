@@ -9,9 +9,7 @@ function App() {
       <nav class="navbar">
         <div class="max-width">
           <div class="logo">
-            <a href="#">
-             VIP
-            </a>
+            <a href="#">VIP</a>
           </div>
           <ul class="menu">
             <li>
@@ -67,10 +65,7 @@ function App() {
           <div class="about-content">
             <div class="column right">
               <div class="column-left">
-                <img
-                  src="https://avatars.githubusercontent.com/u/76686720?v=4"
-                  alt=""
-                />
+                <img class="profileimg" src="public/profile.png" alt="" />
               </div>
               <div class="text">
                 I'm vipul and I'm a <span class="typing-2">web developer</span>
@@ -189,12 +184,6 @@ function App() {
         <div class="max-width">
           <h2 class="title">My teams</h2>
           <div class="carousel owl-carousel">
-            <div class="card">
-              <div class="box">
-                <div class="text">Someone name</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
             <div class="card">
               <div class="box">
                 <img
