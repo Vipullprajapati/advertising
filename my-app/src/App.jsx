@@ -187,7 +187,7 @@ function App() {
             <div class="card">
               <div class="box">
                 <img
-                  src="https://avatars.githubusercontent.com/u/76686720?v=4"
+                  src="public/profile.png"
                   alt=""
                 />
                 <div class="text">Someone name</div>
@@ -197,11 +197,11 @@ function App() {
             <div class="card">
               <div class="box">
                 <img
-                  src="https://avatars.githubusercontent.com/u/76686720?v=4"
+                  src="public/profile.png"
                   alt=""
                 />
-                <div class="text">Someone name</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="text">Mr abhishek patel</div>
+                <p>He is a professional Web Developer </p>
               </div>
             </div>
           </div>
