@@ -182,7 +182,7 @@ function App() {
 
       <section class="teams" id="teams">
         <div class="max-width">
-          <h2 class="title">My teams</h2>
+          <h2 class="title">MY TEAMS</h2>
           <div class="carousel owl-carousel">
             <div class="card">
               <div class="box">
