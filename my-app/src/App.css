@@ -573,3 +573,33 @@ button:active {
     transform: translateY(-0.1em);
   }
 }
+
+/* App.css */
+
+/* Common Styles */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* Navbar Example */
+.navbar {
+  background-color: inherit;
+}
+
+.menu a {
+  color: inherit;
+}
+
+/* You can extend this to other classes like .card, .footer etc. */
