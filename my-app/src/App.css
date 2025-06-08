@@ -81,6 +81,7 @@ section .title::after {
   padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
+  background-color: #000000;
 }
 
 .navbar .max-width {
